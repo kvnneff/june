@@ -1,0 +1,80 @@
+@import 'suitcss/utils-display';
+@import 'suitcss/components-grid';
+
+.SeedForm {
+  margin:0 auto;
+  max-width: 640px;
+}
+
+.Form {
+  max-width: 600px;
+  padding:1rem;
+}
+
+.FormField {
+  margin-bottom: 10px;
+  vertical-align: middle;
+}
+
+.FormField.SelectField {
+  margin-right: 5px;
+}
+
+.FormField-controls {
+  display: inline-block;
+}
+
+.FormField-controls input {
+  font-size: 16px;
+  padding: 3px;
+}
+
+.FormField-controls input[type="number"] {
+  width: 50px;
+  display: inline-block;
+}
+
+.FormField-controls textarea {
+  width: 150px;
+  display: block;
+}
+
+.FormField-label {
+  display: inline-block;
+  margin-right: 10px;
+  text-align:right;
+  vertical-align: middle;
+  width: 150px;
+}
+
+.Form-group .FormField {
+  display: inline-block;
+}
+
+.Form-group .FormField-controls {
+  width: 60px;
+}
+
+.Form-title {
+  margin-bottom: 10px;
+}
+
+.Form-numberInput {
+   width:50px;
+}
+
+.Form-leftColumn {
+  display: inline-block;
+  width: 49%;
+}
+
+.Form-rightColumn {
+  display: inline-block;
+  width: 49%;
+  float: right;
+}
+
+.SeedForm-submitButton {
+  display: block;
+  margin-left: 160px;
+}

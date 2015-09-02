@@ -1,0 +1,41 @@
+@import 'suitcss/components-button';
+
+.Header {
+  background: #26A65B;
+  color: #fff;
+  width: 100%
+}
+
+.Header-title {
+  display: inline-block;
+  margin: 0;
+  padding: 1rem;
+}
+
+.Header-title a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.Header-homeButton {
+  color: #fff;
+  text-decoration: none;
+}
+
+.Header-homeButton:hover {
+  text-decoration: none;
+}
+
+.Header-homeButton:focus {
+  outline: none;
+}
+
+.Header-controls {
+  float: right;
+  margin-right: 1rem;
+  padding: 1rem;
+}
+
+.Header-controlsButton {
+  display: inline-block;
+}

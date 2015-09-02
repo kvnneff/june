@@ -1,0 +1,23 @@
+@import './lib/seed-item';
+
+.SeedList {
+  font-size: 16px;
+}
+
+.SeedList-table {
+  border-collapse: collapse;
+  width: 100%;
+  text-align: left;
+}
+
+.SeedList-emptyContainer {
+  max-width: 200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.SeedList-emptyText {}
+
+.SeedList-emptyTextButton {
+  display: inline-block;
+}

@@ -1,0 +1,15 @@
+.SeedList-rowItem {
+  border-bottom: 1px solid #999;
+}
+
+.SeedList-rowItem:last-of-type {
+  border-bottom: 0;
+}
+
+.SeedList-rowItem:first-of-type {
+  border-top: 1px solid #999;
+}
+
+.SeedList-rowItem td {
+  padding: var(--space-medium-px) 0;
+}

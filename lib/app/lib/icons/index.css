@@ -1,0 +1,12 @@
+.Icon {
+  display: inline-block;
+  text-indent: -9999px;
+  width: 20px;
+  height: 20px;
+  background-position: center center;
+  background-size: contain;
+}
+
+.Icon--delete {
+  background-image: url("./delete_24.png");
+}
